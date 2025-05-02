@@ -13,8 +13,8 @@ return {
     },
     {
       "<leader>fg",
-      function () require('fzf-lua').live_grep() end,
-      desc="[F]ind by [g]repping current project"
+      function () require('fzf-lua').live_grep({cwd=vim.fn.expand("%:h")}) end,
+      desc="[F]ind by [g]repping current directory"
     },
     {
       "<leader>fc",
