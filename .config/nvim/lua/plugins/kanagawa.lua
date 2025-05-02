@@ -7,7 +7,7 @@ return {
             -- Assign a static color to strings
             Comment = { fg = colors.palette.carpYellow, italic = false },
             String = { fg = colors.palette.springGreen, italic = false },
-            Keyword = { fg=colors.palette.dragonGViolet, italic = false },
+            --Keyword = { fg=colors.palette.dragonGViolet, italic = false },
             -- theme colors will update dynamically when you change theme!
             -- SomePluginHl = { fg = colors.theme.syn.type, bold = true },
         }
