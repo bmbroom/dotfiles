@@ -37,3 +37,4 @@ color='$(echo -e $(_hashcolor "$(whoami)@$(hostname):$(pwd -P)"))'
 reset='\[\e[0m\]'
 export PS1="▶▶▶ ${color}\u@\h${reset}:${color}\W${reset}${git_ps1}\n[\j]\\$ "
 alias config='/usr/bin/git --git-dir=/home/bmbroom/.cfg/.git/ --work-tree=/home/bmbroom'
+alias lola='/usr/bin/git log --graph --decorate --pretty=oneline --abbrev-commit --all'
